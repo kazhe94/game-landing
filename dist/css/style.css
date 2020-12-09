@@ -262,6 +262,9 @@ address {
 
 .about {
   padding-top: 200px;
+  height: calc(100vh + 90px);
+  position: relative;
+  z-index: 10;
   padding-bottom: 148px;
   background-image: url(../img/bg2.jpg);
 }
@@ -350,6 +353,44 @@ address {
   z-index: 1;
 }
 
+.features {
+  background-image: url(../img/bg3.jpg);
+  padding-top: 260px;
+  padding-bottom: 260px;
+  margin-top: -31px;
+}
+
+.features__content {
+  width: 420px;
+  margin-left: auto;
+  margin-right: 115px;
+}
+
+.features__steps {
+  margin-top: 80px;
+}
+
+.features__steps-item {
+  margin-bottom: 35px;
+}
+
+.features__steps-title {
+  color: #FFB548;
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+
+.features__steps-desc {
+  width: 365px;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+}
+
 .webp .main { background-image: url(../img/bg1.webp); }
 
 .webp .about { background-image: url(../img/bg2.webp); }
+
+.webp .features { background-image: url(../img/bg3.webp); }
