@@ -11,6 +11,7 @@ body {
     padding: 0;
     font-family: 'OpenSans', sans-serif;
     height: 100%;
+    color: #fff;
 }
 
 a {
@@ -45,6 +46,12 @@ address {
     overflow-x: hidden;
 }
 
+.section {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 .container {
     max-width: 1240px;
     width: 100%;

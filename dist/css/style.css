@@ -38,6 +38,7 @@ body {
   padding: 0;
   font-family: 'OpenSans', sans-serif;
   height: 100%;
+  color: #fff;
 }
 
 a {
@@ -81,6 +82,13 @@ address {
   overflow-x: hidden;
 }
 
+.section {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .container {
   max-width: 1240px;
   width: 100%;
@@ -105,11 +113,7 @@ address {
 }
 
 .main {
-  height: 100vh;
   background-image: url(../img/bg1.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -167,7 +171,6 @@ address {
   font-size: 12px;
   line-height: 22px;
   text-transform: uppercase;
-  color: #FFFFFF;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -203,7 +206,6 @@ address {
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 700;
-  color: #fff;
 }
 
 .header__logo-img {
@@ -258,4 +260,96 @@ address {
   margin: 0 23px;
 }
 
+.about {
+  padding-top: 200px;
+  padding-bottom: 148px;
+  background-image: url(../img/bg2.jpg);
+}
+
+.about .title {
+  position: relative;
+}
+
+.about .title::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 711px;
+  height: 3px;
+  bottom: -20px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.about__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about__text {
+  width: 100%;
+}
+
+.about__slides {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 550px;
+  overflow: hidden;
+}
+
+.about__slides-item {
+  width: 500px;
+  height: 610px;
+}
+
+.about__slides-img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+}
+
+.about__desc {
+  width: 365px;
+  display: block;
+  margin-top: 85px;
+  margin-left: auto;
+  text-align: justify;
+  margin-right: 28px;
+  position: relative;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.about__desc::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 2px;
+  right: 78px;
+  z-index: 0;
+  width: 120px;
+  height: 5px;
+  background-color: #FFB548;
+}
+
+.about__desc p:first-child {
+  margin-bottom: 32px;
+}
+
+.about__desc p:last-child {
+  position: relative;
+  z-index: 1;
+}
+
 .webp .main { background-image: url(../img/bg1.webp); }
+
+.webp .about { background-image: url(../img/bg2.webp); }
