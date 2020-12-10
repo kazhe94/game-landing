@@ -74,3 +74,18 @@ address {
     color: #FFFFFF;
     text-transform: uppercase;
 }
+
+.btn {
+    width: 260px;
+    height: 60px;
+    font-size: 16px;
+    line-height: 22px;
+    border: none;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #1A1917;
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    border-radius: 4px;
+    cursor: pointer;
+}

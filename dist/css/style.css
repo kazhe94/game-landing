@@ -112,6 +112,22 @@ address {
   text-transform: uppercase;
 }
 
+.btn {
+  width: 260px;
+  height: 60px;
+  font-size: 16px;
+  line-height: 22px;
+  border: none;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: #1A1917;
+  background: -o-linear-gradient(255.32deg, #FFB548 11.27%, #F3AF34 90.4%);
+  background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
 .main {
   background-image: url(../img/bg1.jpg);
   display: -webkit-box;
@@ -144,20 +160,6 @@ address {
 
 .main__content .subtitle {
   margin-bottom: 30px;
-}
-
-.main__btn {
-  background: -o-linear-gradient(255.32deg, #FFB548 11.27%, #F3AF34 90.4%);
-  background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
-  border: none;
-  border-radius: 4px;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 22px;
-  text-align: center;
-  color: #1A1917;
-  height: 60px;
-  width: 260px;
 }
 
 .main__btn-price {
@@ -262,9 +264,6 @@ address {
 
 .about {
   padding-top: 200px;
-  height: calc(100vh + 90px);
-  position: relative;
-  z-index: 10;
   padding-bottom: 148px;
   background-image: url(../img/bg2.jpg);
 }
@@ -357,7 +356,6 @@ address {
   background-image: url(../img/bg3.jpg);
   padding-top: 260px;
   padding-bottom: 260px;
-  margin-top: -31px;
 }
 
 .features__content {
@@ -389,8 +387,159 @@ address {
   text-align: justify;
 }
 
+.quotes {
+  padding-top: 159px;
+  padding-bottom: 147px;
+  background-image: url(../img/bg5.jpg);
+}
+
+.quotes__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.quotes__desc {
+  margin-top: 54px;
+  margin-bottom: 64px;
+  width: 415px;
+}
+
+.quotes__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.quotes__card {
+  width: 452px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  padding: 15px 20px 20px 15px;
+}
+
+.quotes__card:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.quotes__card:nth-child(even) {
+  margin-right: 144px;
+}
+
+.profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 22px;
+}
+
+.profile__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profile__photo {
+  margin-right: 22px;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: #FFB548;
+}
+
+.profile__photo-img {
+  width: 62px;
+  height: 62px;
+  -webkit-transform: translate(-6px, -3px);
+      -ms-transform: translate(-6px, -3px);
+          transform: translate(-6px, -3px);
+}
+
+.profile__name {
+  font-family: "BebasNeue", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  color: #FFB548;
+}
+
+.profile__desc {
+  font-size: 18px;
+  line-height: 22px;
+  opacity: .5;
+  text-align: justify;
+}
+
+.profile__message {
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+
+.profile__message-date {
+  font-size: 14px;
+  line-height: 19px;
+  opacity: .5;
+}
+
+.requirements {
+  background-image: url(../img/bg4.jpg);
+  padding-top: 145px;
+}
+
+.requirements .title {
+  text-align: center;
+}
+
+.requirements .subtitle {
+  text-align: center;
+}
+
+.requirements__table {
+  width: 573px;
+  border: 1px solid #979797;
+}
+
+.requirements__table th {
+  color: #FFB548;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.requirements__table td {
+  font-size: 18px;
+  line-height: 22px;
+}
+
 .webp .main { background-image: url(../img/bg1.webp); }
 
 .webp .about { background-image: url(../img/bg2.webp); }
 
 .webp .features { background-image: url(../img/bg3.webp); }
+
+.webp .quotes { background-image: url(../img/bg5.webp); }
+
+.webp .requirements { background-image: url(../img/bg4.webp); }
