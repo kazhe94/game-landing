@@ -15,17 +15,7 @@
             width: 55px;
         }
     }
-    &__nav {
-        
-    }
-    &__nav-list {
-        display: flex;
-    }
-    &__nav-item {
-        &:not(:last-child) {
-            margin-right: 40px;
-        }
-    }
+    
     &__special {
         display: flex;
         align-items: center;
@@ -51,4 +41,15 @@
     height: 30px;
     background-color: #fff;
     margin: 0 23px;
+}
+
+.nav {
+    &-list {
+        display: flex;
+    }
+    &-item {
+        &:not(:last-child) {
+            margin-right: 40px;
+        }
+    }
 }

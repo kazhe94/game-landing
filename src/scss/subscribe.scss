@@ -1,0 +1,29 @@
+.subscribe {
+    background-image: url(../img/bg7.jpg);
+    padding-top: 220px;
+    &__content {
+        display: flex;
+        flex-direction: column;
+        max-width: 650px;
+        margin-left: auto;
+    }
+    &__desc {
+        font-size: 18px;
+        line-height: 22px;
+        margin: 60px 0;
+    }
+    &__form {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__input {
+        width: 366px;
+        height: 60px;
+        background: rgba(255, 255, 255, 0.08);
+        border-radius: 5px;
+        border: none;
+        font-size: 18px;
+        line-height: 25px;
+        color: #FFB548;
+    }
+}
