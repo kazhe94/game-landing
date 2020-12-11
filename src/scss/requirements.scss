@@ -12,6 +12,7 @@
         max-width: 573px;
         border: 1px solid #979797;
         border-collapse: collapse;
+        
         .left-column {
             width: 276px;
         }
@@ -33,6 +34,9 @@
             padding: 14px 10px 18px;
             border: 1px solid #979797;
             height: 125px;
+        }
+        &-wrap {
+            /* mask-box-image: url(../img/table.svg); */
         }
     }
 }

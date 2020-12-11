@@ -43,17 +43,14 @@ let {src, dest} = require('gulp'),
     webp = require('gulp-webp'),
     webp_html = require('gulp-webp-html'),
     webpcss = require('gulp-webpcss'),
-    sgvSptrite = require('gulp-svg-sprite'),
     ttf2woff = require('gulp-ttf2woff'),
     ttf2woff2 = require('gulp-ttf2woff2'),
-    fonter = require('gulp-fonter');
+    fonter = require('gulp-fonter'),
 
 
 function browserSync(params) {
     browsersync.init({
-        server: {
-            baseDir: "./" + project_folder + "/"
-        },
+        server: {baseDir: project_folder + "/"},
         port: 3000,
         notify: false
     })

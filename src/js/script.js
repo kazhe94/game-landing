@@ -15,3 +15,13 @@ function testWebP(callback) {
     document.querySelector('body').classList.add('no-webp');
     }
 });
+
+
+const btn = document.querySelector('.about__slider-switch');
+const items = document.querySelector('.about__slides');
+
+function append() {
+    items.appendChild(items.children[0]);
+}
+
+btn.addEventListener('click', append);

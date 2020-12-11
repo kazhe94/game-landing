@@ -7,10 +7,14 @@
                 <p class="subscribe__desc">In order to start receiving our news, all you have to do is enter your email address. Everything else will be taken care of by us. We will send you emails containing information about game. We don’t spam.</p>
             </div>
             <form action="#" class="subscribe__form">
-                <input class="subscribe__input" type="email">
+                <label for="email-input">
+                    <span class="subscribe__input-label">Your email address</span>
+                    <input id="email-input" class="subscribe__input" type="email">
+                </label>
                 <button class="subscribe__btn btn">Subscribe now</button>
             </form>
         </div>
         @@include("./_footer.html")
     </div>
+
 </section>
